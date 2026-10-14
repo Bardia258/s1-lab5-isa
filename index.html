@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Database</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Patient Database</h1>
+
+        <h2>Insert Patients</h2>
+        <p>Click to insert the four patients.</p>
+        <button id="insertButton">Insert</button>
+
+        <h2>Read Patient Data</h2>
+        <label for="sqlQuery">SQL SELECT query:</label>
+        <textarea id="sqlQuery" rows="4">SELECT * FROM patient</textarea>
+        <button id="submitButton">Submit</button>
+
+        <h2>Server Response</h2>
+        <pre id="response" role="status" aria-live="polite">No request sent yet.</pre>
+    </main>
+</body>
+</html>
