@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://comp4537-lab5-uaoc.onrender.com/';
+const API_BASE_URL = 'https://comp4537-lab5-uaoc.onrender.com';
 const INSERT_PATH = '/lab5/api/v1/insert';
 const SQL_PATH = '/lab5/api/v1/sql/';
 
